@@ -16,8 +16,6 @@ def home():
         currency = request.form['currency']
 
       num1 = number1.replace(",", "")
-      num1 = num1.replace(".", "")
-      print(num1)
       
       if not r.match(num1):
         result = 0
